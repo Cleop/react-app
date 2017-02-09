@@ -1,9 +1,14 @@
 var React = require('react');
+var styles = require('./styles');
+
+var divStyle = {
+  fontFamily: styles.fontFamily
+};
 
 var Profile = React.createClass({
   render: function() {
     return (
-      <div>
+      <div style={divStyle}>
       <p>
       I am a junior developer with experience in startups on both the technical and non-technical sides. I love learning about new technologies, producing clean code and understanding the user’s needs to deliver a strong user experience.
       </p>
