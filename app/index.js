@@ -1,8 +1,8 @@
 import React from 'react';
 var ReactDOM = require('react-dom');
-var MyComponentClass = require('./components/App');
+var App = require('./components/App');
 
 ReactDOM.render(
-  <MyComponentClass />,
+  <App />,
   document.getElementById('app')
 );
