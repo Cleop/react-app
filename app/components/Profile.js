@@ -2,7 +2,9 @@ var React = require('react');
 var styles = require('./styles');
 
 var divStyle = {
-  fontFamily: styles.fontFamily
+  fontFamily: styles.fontFamily,
+  margin: styles.margin,
+  width: '80%'
 };
 
 var Profile = React.createClass({
