@@ -2,13 +2,14 @@ var React = require('react');
 var styles = require('./styles');
 
 var coverStyle = {
-  background:'black url("https://s-media-cache-ak0.pinimg.com/736x/96/51/80/965180c2157bc052a741ba1d4b427247.jpg") left top no-repeat',
+  background:'black url("http://www.witness-this.com/content/uploads/2016/02/geometric-landscape-design3_by-threetonine.jpg") center center',
+  backgroundSize: 'cover',
+  overflow: 'hidden',
   fontSize: '6em',
   fontFamily: styles.fontFamily,
-  margin: 0,
-  height: '80vh'
+  margin: '0 auto',
+  height: '90vh'
 };
-
 
 var Cover = React.createClass({
   render: function() {
