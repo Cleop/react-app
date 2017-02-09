@@ -1,10 +1,9 @@
 {
   "name": "react",
   "version": "1.0.0",
-  "description": "",
+  "description": "Exploring using react",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack",
     "start": "webpack-dev-server"
   },
@@ -20,5 +19,13 @@
     "html-webpack-plugin": "^2.28.0",
     "webpack": "^2.2.1",
     "webpack-dev-server": "^2.3.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cleop/react-app.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Cleop/react-app/issues"
+  },
+  "homepage": "https://github.com/Cleop/react-app#readme"
 }
