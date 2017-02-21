@@ -1,23 +1,119 @@
 var React = require('react');
 var styles = require('./styles');
 
-var divStyle = {
+var story = {
   fontFamily: styles.fontFamily,
   margin: styles.margin,
-  width: '80%',
-  padding: '20px 0px'
 };
+
+var row = {
+  position: 'relative',
+  display: 'block',
+  height: '30vh',
+  width: '90vw',
+  margin: 'auto',
+  // background: 'grey'
+};
+
+var leftCube = {
+  display: 'inline-block',
+  width: '41vw',
+  height: '100%',
+  padding: '0 2vw',
+  position: 'absolute',
+  left: '0',
+  textAlign: 'center',
+  // background: 'green'
+};
+
+var rightCube = {
+  display: 'inline-block',
+  width: '41vw',
+  height: '100%',
+  padding: '0 2vw',
+  position: 'absolute',
+  right: '0',
+  textAlign: 'center',
+  // background: 'yellow'
+};
+
+var imageCode = {
+  position: 'absolute',
+  height: '50px',
+  top: '16%',
+  right: '26vw'
+};
+
+var imageIdea = {
+  position: 'absolute',
+  height: '100px',
+  bottom: '6%',
+  right: '19vw'
+};
+
+var imageDesign = {
+  position: 'absolute',
+  height: '120px',
+  top: '1%',
+  right: '10vw'
+};
+
+var startText = {
+  padding: '12% 0 13.5% 0',
+  width: '80%',
+  margin: 'auto',
+  fontSize: '1.1em',
+  lineHeight: '140%'
+};
+
+
+var RowOne = React.createClass({
+  render: function() {
+    return (
+      <div style={row}>
+
+      <div style={leftCube}>
+      <p style={startText}>
+      I began my coding journey when I was inspired by the film <cite>'CODE: Debugging the Gender Gap'</cite>. This coincided with reading <cite>'Happiness by Design'</cite> by Professor Paul Dolan.
+      </p>
+      </div>
+
+      <div style={rightCube}>
+      <img style={imageCode} src="http://photos3.meetupstatic.com/photos/event/1/3/b/4/600_445145044.jpeg" />
+      <img style={imageIdea} src="../../idea.png" />
+      <img style={imageDesign} src="https://pbs.twimg.com/profile_images/469809849664950272/U65LrcAN_400x400.png"/>
+
+      </div>
+
+      </div>
+    )
+  }
+});
+
+var RowTwo = React.createClass({
+  render: function() {
+    return (
+      <div style={row}>
+      <div style={rightCube}>
+      <p style={startText}>
+      I decided to become a developer in order to embrace a medium and craft that I loved whilst building products that could help shape lives for the better.
+      </p>
+      </div>
+      <div style={leftCube}>
+
+      </div>
+      </div>
+    )
+  }
+});
 
 var Profile = React.createClass({
   render: function() {
     return (
-      <div style={divStyle}>
-      <p>
-        I began my coding journey when I watched and was inspired by the film <cite>'CODE: Debugging the Gender Gap'</cite>. This coincided with reading <cite>'Happiness by Design'</cite> by Professor Paul Dolan</p>
-      <p>
-        I decided to become a developer in order to embrace a medium and craft that I loved whilst building products that could help shape lives for the better.
-      </p>
-      </div>
+      <section style={story}>
+      <RowOne />
+      <RowTwo />
+      </section>
     )
   }
 });
