@@ -5,19 +5,39 @@ var coverStyle = {
   background:'black url("http://www.witness-this.com/content/uploads/2016/02/geometric-landscape-design3_by-threetonine.jpg") center center',
   backgroundSize: 'cover',
   overflow: 'hidden',
-  fontSize: '3em',
-  color: 'white',
-  fontFamily: styles.fontFamily,
   margin: '0 auto',
-  height: '90vh'
+  height: '100vh',
+  fontFamily: styles.fontFamily,
+  color: 'white',
 };
+
+var titleStyle = {
+  fontSize: '4vw',
+  textAlign: 'left',
+  position: 'relative',
+  top: '42vh',
+  margin: '0',
+  left: '42vw'
+}
+
+var arrowStyle = {
+  fontSize : '80px',
+  position: 'absolute',
+  bottom: '4vh',
+  margin: '0',
+  left: '48%',
+  color:'#bdbdbd'
+}
 
 var Cover = React.createClass({
   render: function() {
     return (
-      <h1 style={coverStyle}>
-      HI, I'M CLEO
+      <div style={coverStyle}>
+      <h1 style={titleStyle}>
+      HI,<br/> I'M CLEO
       </h1>
+      <p style={arrowStyle}>⌄</p>
+      </div>
     )
   }
 });
