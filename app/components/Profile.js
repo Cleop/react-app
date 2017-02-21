@@ -58,6 +58,19 @@ var imageDesign = {
   right: '10vw'
 };
 
+var imageHeart = {
+  position: 'absolute',
+  height: '70px',
+  top: '25.5%',
+  right: '19.5vw'
+};
+
+var imageLaptop = {
+  position: 'absolute',
+  height: '200px',
+  right: '14.5vw'
+};
+
 var startText = {
   padding: '12% 0 13.5% 0',
   width: '80%',
@@ -80,9 +93,8 @@ var RowOne = React.createClass({
 
       <div style={rightCube}>
       <img style={imageCode} src="http://photos3.meetupstatic.com/photos/event/1/3/b/4/600_445145044.jpeg" />
-      <img style={imageIdea} src="../../idea.png" />
+      <img style={imageIdea} src="../../images/idea.png" />
       <img style={imageDesign} src="https://pbs.twimg.com/profile_images/469809849664950272/U65LrcAN_400x400.png"/>
-
       </div>
 
       </div>
@@ -100,7 +112,8 @@ var RowTwo = React.createClass({
       </p>
       </div>
       <div style={leftCube}>
-
+      <img style={imageLaptop} src="../../images/laptop.png" />
+      <img style={imageHeart} src="../../images/heart.png" />
       </div>
       </div>
     )
