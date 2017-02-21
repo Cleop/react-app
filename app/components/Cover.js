@@ -26,7 +26,7 @@ var arrowStyle = {
   bottom: '4vh',
   margin: '0',
   left: '48%',
-  color:'#bdbdbd'
+  color:'white'
 }
 
 var Cover = React.createClass({
