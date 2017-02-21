@@ -13,10 +13,9 @@ var Profile = React.createClass({
     return (
       <div style={divStyle}>
       <p>
-      I am a junior developer with experience in startups on both the technical and non-technical sides. I love learning about new technologies, producing clean code and understanding the user’s needs to deliver a strong user experience.
-      </p>
+        I began my coding journey when I watched and was inspired by the film <cite>'CODE: Debugging the Gender Gap'</cite>. This coincided with reading <cite>'Happiness by Design'</cite> by Professor Paul Dolan</p>
       <p>
-      My talents have been recognised by my selection for LocalGlobe’s Ambitious Ladies in Technology scheme. Previously I worked in documentaries for Channel 4, the BBC and the Guardian and changed direction having been inspired by engineering as a medium to shape lives for the better.
+        I decided to become a developer in order to embrace a medium and craft that I loved whilst building products that could help shape lives for the better.
       </p>
       </div>
     )
