@@ -1,5 +1,4 @@
 var React = require('react');
-var styles = require('./styles');
 
 var coverStyle = {
   background:'black url("http://www.witness-this.com/content/uploads/2016/02/geometric-landscape-design3_by-threetonine.jpg") center center',
@@ -7,7 +6,6 @@ var coverStyle = {
   overflow: 'hidden',
   margin: '0 auto 1% auto',
   height: '100vh',
-  fontFamily: styles.fontFamily,
   color: 'white',
 };
 
