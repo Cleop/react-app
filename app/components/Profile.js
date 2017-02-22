@@ -71,6 +71,13 @@ var imageLaptop = {
   right: '14.5vw'
 };
 
+var imageFAC = {
+  position: 'absolute',
+  height: '150px',
+  bottom: '20%',
+  right: '16vw'
+};
+
 var startText = {
   padding: '12% 0 13.5% 0',
   width: '80%',
@@ -120,12 +127,33 @@ var RowTwo = React.createClass({
   }
 });
 
+var RowThree = React.createClass({
+  render: function() {
+    return (
+      <div style={row}>
+
+      <div style={leftCube}>
+      <p style={startText}>
+      I'm an alumni of the presitgious Founders & Coders Full Stack Bootcamp. During the course I built projects using Javascript, Node, SQL, TDD, OAuth and APIs.
+      </p>
+      </div>
+
+      <div style={rightCube}>
+      <img style={imageFAC} src="../../images/FAC.png" />
+      </div>
+
+      </div>
+    )
+  }
+});
+
 var Profile = React.createClass({
   render: function() {
     return (
       <section style={story}>
       <RowOne />
       <RowTwo />
+      <RowThree />
       </section>
     )
   }
