@@ -1,7 +1,7 @@
-var fontSize   = '4em';
-var padding = '45px 0';
+const fontSize   = '4em';
+const padding = '45px 0';
 
-var row = {
+const row = {
   position: 'relative',
   display: 'block',
   height: '30vh',
@@ -10,7 +10,7 @@ var row = {
   // background: 'grey'
 };
 
-var leftCube = {
+const leftCube = {
   display: 'inline-block',
   width: '41vw',
   height: '100%',
@@ -21,7 +21,7 @@ var leftCube = {
   // background: 'green'
 };
 
-var rightCube = {
+const rightCube = {
   display: 'inline-block',
   width: '41vw',
   height: '100%',
@@ -32,7 +32,7 @@ var rightCube = {
   // background: 'yellow'
 };
 
-var startText = {
+const startText = {
   padding: '12% 0 13.5% 0',
   width: '80%',
   margin: 'auto',

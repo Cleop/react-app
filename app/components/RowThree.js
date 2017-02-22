@@ -1,19 +1,19 @@
-var React = require('react');
-var styles = require('./styles');
+const React = require('react');
+const styles = require('./styles');
 
-var row = styles.row;
-var leftCube = styles.leftCube;
-var rightCube = styles.rightCube;
-var startText = styles.startText;
+const row = styles.row;
+const leftCube = styles.leftCube;
+const rightCube = styles.rightCube;
+const startText = styles.startText;
 
-var imageFAC = {
+const imageFAC = {
   position: 'absolute',
   height: '150px',
   bottom: '20%',
   right: '16vw'
 };
 
-var RowThree = React.createClass({
+const RowThree = React.createClass({
   render: function() {
     return (
       <div style={row}>

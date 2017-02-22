@@ -1,10 +1,10 @@
-var React = require('react');
-var RowOne = require('./RowOne');
-var RowTwo = require('./RowTwo');
-var RowThree = require('./RowThree');
-var RowFour = require('./RowFour');
+const React = require('react');
+const RowOne = require('./RowOne');
+const RowTwo = require('./RowTwo');
+const RowThree = require('./RowThree');
+const RowFour = require('./RowFour');
 
-var Profile = React.createClass({
+const Profile = React.createClass({
   render: function() {
     return (
       <section>

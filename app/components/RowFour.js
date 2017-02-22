@@ -1,18 +1,18 @@
-var React = require('react');
-var styles = require('./styles');
+const React = require('react');
+const styles = require('./styles');
 
-var row = styles.row;
-var leftCube = styles.leftCube;
-var rightCube = styles.rightCube;
-var startText = styles.startText;
+const row = styles.row;
+const leftCube = styles.leftCube;
+const rightCube = styles.rightCube;
+const startText = styles.startText;
 
-var imageRocket = {
+const imageRocket = {
   position: 'absolute',
   height: '200px',
   right: '14.5vw'
 };
 
-var RowFour = React.createClass({
+const RowFour = React.createClass({
   render: function() {
     return (
       <div style={row}>

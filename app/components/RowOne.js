@@ -1,33 +1,33 @@
-var React = require('react');
-var styles = require('./styles');
+const React = require('react');
+const styles = require('./styles');
 
-var row = styles.row;
-var leftCube = styles.leftCube;
-var rightCube = styles.rightCube;
-var startText = styles.startText;
+const row = styles.row;
+const leftCube = styles.leftCube;
+const rightCube = styles.rightCube;
+const startText = styles.startText;
 
-var imageCode = {
+const imageCode = {
   position: 'absolute',
   height: '50px',
   top: '16%',
   right: '26vw'
 };
 
-var imageIdea = {
+const imageIdea = {
   position: 'absolute',
   height: '100px',
   bottom: '6%',
   right: '19vw'
 };
 
-var imageDesign = {
+const imageDesign = {
   position: 'absolute',
   height: '120px',
   top: '1%',
   right: '10vw'
 };
 
-var RowOne = React.createClass({
+const RowOne = React.createClass({
   render: function() {
     return (
       <div style={row}>
