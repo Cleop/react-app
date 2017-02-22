@@ -1,6 +1,7 @@
 var React = require('react');
-var Intro = require('./Intro');
 var Cover = require('./Cover');
+var Intro = require('./Intro');
+var Skills = require('./Skills');
 
 var App = React.createClass({
      render: function (){
@@ -8,6 +9,7 @@ var App = React.createClass({
           	<div>
               <Cover />
               <Intro />
+              <Skills />
             </div>
   		);
      }
