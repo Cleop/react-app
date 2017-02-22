@@ -1,14 +1,26 @@
 const React = require('react');
-const styles = require('./styling/skillStyles.js');
+const s = require('./styling/skillStyles.js');
 
-const row = styles.row;
+const row = s.row;
+const titleRow = s.titleRow;
+
+const rule = {
+  color: 'black',
+  width: '100px'
+}
 
 const Skills = React.createClass({
   render: function() {
     return (
+      <div>
+      <div style={titleRow}>
+      <h1>Skills</h1>
+      <hr style={rule}/>
+      </div>
       <div style={row}>
 
       </div>
+    </div>
     )
   }
 });
