@@ -78,6 +78,12 @@ var imageFAC = {
   right: '16vw'
 };
 
+var imageRocket = {
+  position: 'absolute',
+  height: '200px',
+  right: '14.5vw'
+};
+
 var startText = {
   padding: '12% 0 13.5% 0',
   width: '80%',
@@ -147,6 +153,23 @@ var RowThree = React.createClass({
   }
 });
 
+var RowFour = React.createClass({
+  render: function() {
+    return (
+      <div style={row}>
+      <div style={rightCube}>
+      <p style={startText}>
+      Now I'm looking for an opportunity to channel my passion and skills into. Please take a look at examples of my work below.
+      </p>
+      </div>
+      <div style={leftCube}>
+      <img style={imageRocket} src="../../images/rocket.png" />
+      </div>
+      </div>
+    )
+  }
+});
+
 var Profile = React.createClass({
   render: function() {
     return (
@@ -154,6 +177,7 @@ var Profile = React.createClass({
       <RowOne />
       <RowTwo />
       <RowThree />
+      <RowFour />
       </section>
     )
   }
