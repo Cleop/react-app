@@ -7,7 +7,7 @@ const row = {
   height: '30vh',
   width: '90vw',
   margin: 'auto',
-  // background: 'grey'
+  background: 'grey'
 };
 
 const leftCube = {
@@ -18,7 +18,7 @@ const leftCube = {
   position: 'absolute',
   left: '0',
   textAlign: 'center',
-  // background: 'green'
+  background: '#dbdbdb'
 };
 
 const rightCube = {
@@ -29,7 +29,7 @@ const rightCube = {
   position: 'absolute',
   right: '0',
   textAlign: 'center',
-  // background: 'yellow'
+  background: '#d7d7d7'
 };
 
 const startText = {

@@ -1,10 +1,10 @@
 const React = require('react');
-const styles = require('./styles');
+const s = require('./styling/introStyles.js');
 
-const row = styles.row;
-const leftCube = styles.leftCube;
-const rightCube = styles.rightCube;
-const startText = styles.startText;
+const row = s.row;
+const leftCube = s.leftCube;
+const rightCube = s.rightCube;
+const startText = s.startText;
 
 const imageCode = {
   position: 'absolute',
