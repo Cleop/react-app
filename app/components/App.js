@@ -1,5 +1,5 @@
 var React = require('react');
-var Profile = require('./Profile');
+var Intro = require('./Intro');
 var Cover = require('./Cover');
 
 var appStyle = {
@@ -11,7 +11,7 @@ var App = React.createClass({
           return (
           	<div style={appStyle}>
               <Cover />
-              <Profile />
+              <Intro />
             </div>
   		);
      }

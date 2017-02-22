@@ -4,7 +4,7 @@ const RowTwo = require('./RowTwo');
 const RowThree = require('./RowThree');
 const RowFour = require('./RowFour');
 
-const Profile = React.createClass({
+const Intro = React.createClass({
   render: function() {
     return (
       <section>
@@ -17,4 +17,4 @@ const Profile = React.createClass({
   }
 });
 
-module.exports = Profile;
+module.exports = Intro;
