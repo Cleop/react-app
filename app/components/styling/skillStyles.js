@@ -5,7 +5,7 @@ const titleRow = {
   width: '90vw',
   margin: 'auto',
   textAlign: 'center',
-  background: '#ededed'
+  // background: '#ededed'
 };
 
 const row = {
@@ -14,7 +14,7 @@ const row = {
   height: '30vh',
   width: '90vw',
   margin: 'auto',
-  background: '#e0e0e0'
+  // background: '#d7d7d7'
 };
 
 module.exports = {
