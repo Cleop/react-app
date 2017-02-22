@@ -1,5 +1,4 @@
 var React = require('react');
-var styles = require('./styles');
 var RowOne = require('./RowOne');
 var RowTwo = require('./RowTwo');
 var RowThree = require('./RowThree');
