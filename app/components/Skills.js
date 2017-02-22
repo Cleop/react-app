@@ -5,9 +5,23 @@ const row = s.row;
 const titleRow = s.titleRow;
 
 const rule = {
-  color: 'black',
-  width: '100px'
-}
+  width: '100px',
+  marginTop: '-16px'
+};
+
+const col = {
+  display: 'inline-block',
+  width: '20%',
+  height: '30vh',
+  background: '#dbdbdb'
+};
+
+const col2 = {
+  display: 'inline-block',
+  width: '20%',
+  height: '30vh',
+  background: '#d7d7d7'
+};
 
 const Skills = React.createClass({
   render: function() {
@@ -18,7 +32,11 @@ const Skills = React.createClass({
       <hr style={rule}/>
       </div>
       <div style={row}>
-
+      <div style={col}></div>
+      <div style={col2}></div>
+      <div style={col}></div>
+      <div style={col2}></div>
+      <div style={col}></div>
       </div>
     </div>
     )
